@@ -45,9 +45,10 @@
 	<button onclick="cameraControls.enabled = true;">enable mouse/touch controls</button>
 </div>
 
-<script src="https://unpkg.com/three@0.118.3/build/three.min.js"></script>
-<script src="https://raw.githubusercontent.com/yomotsu/camera-controls/dev/dist/camera-controls.js"></script>
+<!--  <script src="https://unpkg.com/three@0.118.3/build/three.min.js"></script>  -->
+<!--  <script src="https://raw.githubusercontent.com/yomotsu/camera-controls/dev/dist/camera-controls.js"></script>  -->
 <script type="module">
+import * as THREE from 'https://threejs.org/build/three.module.js';
 import CameraControls from 'https://raw.githubusercontent.com/yomotsu/camera-controls/dev/dist/camera-controls.js';
 CameraControls.install( { THREE: THREE } );
 
